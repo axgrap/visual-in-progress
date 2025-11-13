@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420">
+  <!-- Background (white) -->
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- Recommended font-family: Noto Serif (fallback: serif) -->
+  <!-- Pocket-logo layout: three stacked lines, left-aligned -->
+  <g font-family="Noto Serif, serif" fill="#000000" text-anchor="start">
+    <!-- line 1: student -->
+    <text x="32" y="110" font-size="96" font-weight="400" letter-spacing="0.5">
+      student
+    </text>
+
+    <!-- line 2: loan -->
+    <text x="32" y="180" font-size="96" font-weight="400" letter-spacing="0.5">
+      loan
+    </text>
+
+    <!-- line 3: def + (star) + ulter  -->
+    <!-- We separate "def" and "ulter" so we can place the star in between -->
+    <g font-size="96" font-weight="400" letter-spacing="0.5">
+      <text x="32" y="250">def</text>
+
+      <!-- Outline 5-point star replacing the 'a' -->
+      <!-- Star centered at (280, 280) sized to match the x-height of the type -->
+      <g transform="translate(190,220)">
+        <!-- outlined star: stroke only -->
+        <polygon
+          points="0,-36 10,-10 38,-10 16,6 24,34 0,18 -24,34 -16,6 -38,-10 -10,-10"
+          fill="none"
+          stroke="#000"
+          stroke-width="6"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+          transform="scale(0.8)"
+        />
+      </g>
+
+      <!-- "ulter" placed to the right of the star -->
+      <text x="220" y="250">ulter</text>
+      <text x="32" y="270" font-size="12" font-weight="800" letter-spacing="0.5">
+        In default over 7 years, paying would hurt my credit.  I will never pay.
+        </text>
+    </g>
+  </g>
+
+  <!-- Thin swoosh curving backward from the left of the star (motion left → right).
+       The curve flows leftwards from just left of the star, tapering slightly. -->
+  <!-- <path
+    d="M300 260 C330 240, 342 240, 355 260"
+    fill="none"
+    stroke="#000"
+    stroke-width="4"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="1"
+  /> -->
+
+  <!-- Small visual tuning helpers (hidden from printing screens) 
+       - keeps layout compact for pocket-size reproduction -->
+  <title>student loan defaulter — pocket logo (Noto Serif, star for 'a')</title>
+  <desc>Minimal 1990s-inspired pocket logo: lowercase Noto Serif, outlined star replacing 'a', thin swoosh.</desc>
+</svg>
