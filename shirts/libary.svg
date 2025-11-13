@@ -1,0 +1,44 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="250" viewBox="0 0 250 250">
+		<defs>
+			<marker id="diamond" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+				<polygon points="5,0 10,5 5,10 0,5" fill="#fff" stroke="#000" stroke-width="1"/>
+			</marker>
+    <path id="b" d="M 125 125 m -114.6, 0 a 114.6,114.6 0 1,0 229.2,0 a 114.6,114.6 0 1,0 -229.2,0"></path>
+	<path id="c" d="M 125 125 m -97.5, 0 a 97.5,97.5 0 1,1 195,0 a 97.5,97.5 0 1,1 -195,0"></path>
+    	<!-- <pattern
+			xmlns="http://www.w3.org/2000/svg" id="a" width="15" height="15" patternUnits="userSpaceOnUse">
+			<path stroke="#ccc" d="M12 0v15M0 12h15"/>
+		</pattern> -->
+	</defs>
+	<rect
+		xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="url(#a)"/>
+	<!-- White background circle -->
+	<circle cx="125" cy="125" r="120" fill="#fff"/>
+		<circle cx="125" cy="125" r="122" fill="none" stroke="#ffffffff" stroke-dasharray="1" stroke-width="3" class="Rang" marker-mid="url(#diamond)"/>
+		
+        <circle cx="125" cy="125" r="118" fill="none" stroke="#000" stroke-dasharray="0" stroke-width="2.5" class="Rang"/>
+		<text font-family="Tahoma" font-size="20" font-weight="bold" textLength="229.586" transform="rotate(28 125 125)">
+			<textPath xlink:href="#c" href="#c">FRIEND OF THE </textPath>
+		</text>
+		<text font-family="Tahoma" font-size="20" font-weight="bold" textLength="127.079" transform="rotate(-57 125 125)">
+			<textPath xlink:href="#b" href="#b">LIBARY</textPath>
+		</text>
+        <circle cx="125" cy="125" r="92.75" fill="none" stroke="#000" stroke-width="2" class="Rang"/>
+	<circle cx="125" cy="125" r="90" fill="none" stroke="#000" stroke-dasharray="2.5 1.015" stroke-width="2.5" class="Rang" transform="rotate(90,125,125)"/>
+	<circle cx="125" cy="125" r="87" fill="none" stroke="#000" stroke-dasharray="2.5 1.003" stroke-width="2" class="Rang" transform="rotate(91,125,125)"/>
+	<circle cx="125" cy="125" r="84" fill="none" stroke="#000" stroke-dasharray="2.5 1.022" stroke-width="2" class="Rang" transform="rotate(92,125,125)"/>
+	<circle cx="125" cy="125" r="81" fill="none" stroke="#000" stroke-dasharray="2.5 1.016" stroke-width="2" class="Rang" transform="rotate(93,125,125)"/>
+	<circle cx="125" cy="125" r="78" fill="none" stroke="#000" stroke-dasharray="2.5 1.008" stroke-width="2" class="Rang" transform="rotate(94,125,125)"/>
+	<circle cx="125" cy="125" r="75" fill="none" stroke="#000" stroke-dasharray="2.5 0.999" stroke-width="2" class="Rang" transform="rotate(95,125,125)"/>
+	<circle cx="125" cy="125" r="72" fill="none" stroke="#000" stroke-dasharray="2.5 1.019" stroke-width="2" class="Rang" transform="rotate(96,125,125)"/>
+	<circle cx="125" cy="125" r="69" fill="none" stroke="#000" stroke-dasharray="2.5 1.009" stroke-width="2" class="Rang" transform="rotate(97,125,125)"/>
+	<circle cx="125" cy="125" r="66" fill="none" stroke="#000" stroke-dasharray="2.5 1.002" stroke-width="2" class="Rang" transform="rotate(98,125,125)"/>
+	<circle cx="125" cy="125" r="63" fill="none" stroke="#000" stroke-dasharray="2.5 1.023" stroke-width="2" class="Rang" transform="rotate(99,125,125)"/>
+	<circle cx="125" cy="125" r="60" fill="none" stroke="#000" stroke-dasharray="2.5 1.012" stroke-width="2.5" class="Rang" transform="rotate(100,125,125)"/>
+		<svg
+			xmlns="http://www.w3.org/2000/svg" width="250" height="250" class="Img_l" color="#000" transform="matrix(.36 0 0 .36 80 80)" viewBox="0 0 32 32">
+			<path d="M30.527 5.467a1 1 0 0 0-.531-.216h-.004l-3.242.033V2.001a.75.75 0 0 0-.221-.531.74.74 0 0 0-.524-.219h-.01a12.93 12.93 0 0 0-10 3.602l.004-.004A12.93 12.93 0 0 0 5.957 1.253l.045-.003a.8.8 0 0 0-.533.219.75.75 0 0 0-.221.531v3.283L2.006 5.25h-.011a.749.749 0 0 0-.747.75v24a.75.75 0 0 0 1.109.658l-.004.002a13.04 13.04 0 0 1 6.645-1.797c2.443 0 4.731.665 6.693 1.823l-.061-.034a.7.7 0 0 0 .196.077l.005.001q.043.011.094.016h.006l.069.004.013-.004a.74.74 0 0 0 .359-.096l-.004.002A13.05 13.05 0 0 1 23 28.864c2.449 0 4.742.667 6.707 1.83l-.061-.034a.729.729 0 0 0 .741-.019l-.003.002a.75.75 0 0 0 .365-.642v-24a.75.75 0 0 0-.223-.533zM6.75 2.766a10.732 10.732 0 0 1 8.493 3.48l.007.008v21.837a13.2 13.2 0 0 0-8.516-2.826h.016zm-4 26.027V6.758l2.5.025V26a.75.75 0 0 0 .748.75 15.992 15.992 0 0 1 5.534.873l-.112-.034a14 14 0 0 0-2.426-.204c-2.269 0-4.416.519-6.33 1.445zm14-22.54a10.74 10.74 0 0 1 8.527-3.487l-.027-.001v22.498l-.305-.003a13.23 13.23 0 0 0-8.223 2.851l.028-.021zm12.5 22.54c-1.831-.877-3.978-1.397-6.244-1.414H23q-1.284.002-2.503.224l.085-.013c1.529-.534 3.291-.843 5.126-.843q.155 0 .309.003h-.015a.75.75 0 0 0 .748-.75V6.783l2.5-.025z"/>
+		</svg>
+	</svg>
